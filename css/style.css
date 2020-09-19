@@ -1,207 +1,239 @@
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
+
 body {
-  font-family: "Ubuntu", sans-serif;
+    font-family: "Ubuntu", sans-serif;
 }
 
 .brand-logo {
-  margin-left: 100px;
-  font-family: "Permanent Marker", cursive, sans-serif;
+    margin-left: 100px;
+    font-family: "Permanent Marker", cursive, sans-serif;
 }
+
 .nav-wrapper {
-  background-color: #263238;
+    background-color: #263238;
 }
+
 .nav-links {
-  margin-right: 100px;
+    margin-right: 100px;
 }
+
 .nav-links a:hover {
-  background-color: thistle;
-  color: #263238;
+    background-color: thistle;
+    color: #263238;
 }
 
 .heroImg {
-  filter: brightness(30%);
+    filter: brightness(30%);
 }
+
 .heroTxt::first-letter {
-  color: yellow;
-  font-size: larger;
+    color: yellow;
+    font-size: larger;
 }
+
 .slider .indicators .indicator-item.active {
-  background-color: #263238;
+    background-color: #263238;
 }
+
 .pabout {
-  background-color: rgb(106, 165, 255);
-  margin-bottom: 30px;
-  padding-bottom: 20px;
-  color: #fafcff;
+    background-color: rgb(106, 165, 255);
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    color: #fafcff;
 }
+
 .about-container {
-  margin-top: 50px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .aboutText {
-  font-size: large;
-  margin-bottom: 20px;
+    font-size: large;
+    margin-bottom: 20px;
+    margin-left: 20px !important;
+}
 
-  margin-left: 20px !important;
-}
 .aboutText::first-letter {
-  font-size: 50px;
+    font-size: 50px;
 }
+
 .card {
-  width: 150px;
-  height: 200px;
-  border-radius:3px;
-  transition: transform 0.3s;
-  
-  
+    width: 150px;
+    height: 200px;
+    border-radius: 3px;
+    transition: transform 0.3s;
 }
+
 .card:hover {
-  -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
-  transform: scale(1.1);
-  border: 1px solid grey;
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+    border: 1px solid grey;
 }
+
 .card-image img {
-  object-fit: contain;
+    object-fit: contain;
 }
+
 .pskills {
-  margin-bottom: 30px;
-  padding-bottom: 10px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
 }
+
 .infotxt {
-  text-align: center;
-  letter-spacing: 1px;
+    text-align: center;
+    letter-spacing: 1px;
 }
+
 .projects {
-  background-color:  rgb(106, 165, 255);
-  padding-bottom: 10px;
+    background-color: rgb(106, 165, 255);
+    padding-bottom: 10px;
 }
 
 .projectImg img {
-  height: 100px;
-  width: 200px;
-  border-radius: 3px;
+    height: 100px;
+    width: 200px;
+    border-radius: 3px;
 }
-.project-link {
-  display: inline;
-}
-.github-link {
-  display: inline;
-}
-img.github-icon {
-  vertical-align: bottom;
-}
-a {
-  color: red;
-}
-.project-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-.project-box {
-  /* border: 1px solid black; */
-  margin-bottom: 20px;
-  padding: 10px 5px 10px 5px;
-  border-radius:5px;
-  height: 450px;
-  background-color: #dde1e7;
-  box-shadow: -3px -3px 5px #ffffff70, 3px 3px 15px #000000;
-  
-}
-.project-box:hover {
-  -ms-transform: scale(1.08); /* IE 9 */
-  -webkit-transform: scale(1.08); /* Safari 3-8 */
-  transform: scale(1.08);
-  transition: all 3s ease-in;
-}
-.footer {
-  background-color: #263238;
-  color: white;
-}
-.social-icons {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  transition: transform 0.2s;
-}
-.social-link:hover {
-  transform: scale(1.1);
-}
-#gotopbtn {
-  position: fixed;
-  width: 50px;
-  height: 50px;
-  background: #27ae60;
-  bottom: 40px;
-  right: 50px;
 
-  text-decoration: none;
-  text-align: center;
-  line-height: 50px;
-  color: white;
-  font-size: 22px;
-  border-radius: 10px;
+.project-link {
+    display: inline;
 }
-#gotopbtn:hover {
-  background: lightgreen;
-  color: black;
+
+.github-link {
+    display: inline;
 }
-form label {
-  font-size: medium;
+
+img.github-icon {
+    vertical-align: bottom;
 }
-form input {
-  color: white;
+
+a {
+    color: red;
 }
-.sendBtn {
-  padding: 10px;
-  background-color: #27ae60;
-  font-weight: 600;
-  border: none;
-  width: 100px;
-  border-radius: 20px;
-  color: black;
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
 }
-.sendBtn:hover {
-  background-color: lightcyan;
-  cursor: pointer;
+
+.project-box {
+    /* border: 1px solid black; */
+    margin-bottom: 20px;
+    padding: 10px 5px 10px 5px;
+    border-radius: 5px;
+    height: 450px;
+    background-color: #dde1e7;
+    box-shadow: -3px -3px 5px #ffffff70, 3px 3px 15px #000000;
 }
-.card-image{
-  padding:5px;
-  
+
+.project-box:hover {
+    -ms-transform: scale(1.08);
+    /* IE 9 */
+    -webkit-transform: scale(1.08);
+    /* Safari 3-8 */
+    transform: scale(1.08);
+    transition: all 3s ease-in;
 }
-@media only screen and (max-width: 990px) {
-  .brand-logo {
-    margin-left: 0px;
-  }
-  .about-container {
-    flex-direction: column;
-  }
-  .aboutHeader {
-    text-align: center;
-  }
-  .profImage {
-    margin: auto;
-  }
-  .aboutText {
-    margin-top: 20px;
-  }
+
+.footer {
+    background-color: #263238;
+    color: white;
 }
-.card-image{
-  padding:5px;
-  
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition: transform 0.2s;
 }
-@media only screen and (max-width: 330px) {
-  .card {
-    width: 135px;
-  }
-  .card-image img {
-    object-fit: contain;
+
+.social-link:hover {
+    transform: scale(1.1);
+}
+
+#gotopbtn {
+    position: fixed;
     width: 50px;
-  }
+    height: 50px;
+    background: #27ae60;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+    border-radius: 10px;
+}
+
+#gotopbtn:hover {
+    background: lightgreen;
+    color: black;
+}
+
+form label {
+    font-size: medium;
+}
+
+form input {
+    color: white;
+}
+
+.sendBtn {
+    padding: 10px;
+    background-color: #27ae60;
+    font-weight: 600;
+    border: none;
+    width: 100px;
+    border-radius: 20px;
+    color: black;
+}
+
+.sendBtn:hover {
+    background-color: lightcyan;
+    cursor: pointer;
+}
+
+.card-image {
+    padding: 5px;
+}
+
+@media only screen and (max-width: 990px) {
+    .brand-logo {
+        margin-left: 0px;
+    }
+    .about-container {
+        flex-direction: column;
+    }
+    .aboutHeader {
+        text-align: center;
+    }
+    .profImage {
+        margin: auto;
+    }
+    .aboutText {
+        margin-top: 20px;
+    }
+}
+
+.card-image {
+    padding: 5px;
+}
+
+@media only screen and (max-width: 330px) {
+    .card {
+        width: 135px;
+    }
+    .card-image img {
+        object-fit: contain;
+        width: 50px;
+    }
 }
