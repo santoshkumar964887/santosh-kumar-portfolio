@@ -346,6 +346,54 @@ form input {
     color: rgb(2, 28, 61);
 }
 
-.Achivement h4 {
+.achivement h4 {
     text-align: center;
+}
+
+.certificate {
+    background-color: rgb(106, 165, 255);
+    margin: 30px 0px 0px 0px;
+}
+
+.certificate h4 {
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+
+.logo1 {
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    box-shadow: -1px 1px 5px 2px rgb(177, 177, 177);
+    margin: 10px 0px 0px 5px;
+}
+
+.link1 p {
+    display: inline;
+    vertical-align: super;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(6, 66, 177);
+}
+
+.link1 p:hover {
+    color: rgb(2, 28, 61);
+}
+
+.link2 p {
+    display: inline;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 3px;
+    text-align: center;
+    background-color: rgb(6, 66, 177);
+    color: white;
+    padding: 10px;
+}
+
+.link2 p:hover {
+    background-color: rgb(2, 28, 61);
 }
